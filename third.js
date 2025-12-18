@@ -50,4 +50,26 @@ usernum=prompt("u have entered wrong number");
 console.log("you have entered correct number");*/
 
 //strings
-let str="Namaste";
+/*let str="Namaste";
+console.log(str[4]);*/
+//Template Literals
+/*let sentence=`this is a template`;
+console.log(typeof sentence);
+let obj={
+item:"pen",
+price:10,
+};
+let output=`the cost of ${obj.item} is ${obj.price} rupees`;
+console.log(output);*/
+//String Methods
+/*let str="  sAdf ghjkl ";
+console.log(str.toUpperCase());
+console.log(str.toLowerCase());
+console.log(str.trim());
+console.log(str.slice(1,4));
+console.log(str.replace("g","v"));*/
+//practice question of strings   prompt the user fullna,e. generate a username for them based on the input. start username with @, follwed by their full name and ending with fullname length.
+let fullname=prompt("Enter your full name:");
+console.log(fullname);
+let username="@" + fullname + fullname.length;
+console.log(username);
