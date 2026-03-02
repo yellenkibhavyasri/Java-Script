@@ -1,56 +1,56 @@
+//This is a comment
 //Arithmetic Operators
-/*let a=9;
-let b=8;
-console.log("a+b=",a+b);
-console.log("a-b=",a-b);
-console.log("a*b=",a*b);
-console.log("a/b=",a/b);*/
-// unary Operators
-/*let a=4;
-let b=8;
+let a=7;
+let b=9;
+console.log(a+b);
+console.log(a%b);
 a++;
-b--;
 console.log(a);
-console.log(b);8*/
-//Assignment operators
-/*let a=7;
-let b=6;
-a+=4;
-b*=9;
-console.log(a);
-console.log(b);*/
-//comparison operators
-/*let a=9;
-let b=7;
-console.log(a>=b);
-console.log(a!=b);
-console.log(a===b);*/
-//logical operators
-/*let a=6;
-let b=8;
-let cond1=a>b;
-let cond2=a===6;
-console.log(cond1&&cond2);
-console.log(cond1||cond2);
-console.log(!(a<b));*/
+//Assignment Operators
+let x=9;
+let y=6;
+x+=4;
+console.log(x);
+//Comparison Operators
+let s=8;
+let t=10;
+console.log(a===b);
+console.log(a>b);
+//Logical Operators
+let o=6;
+let p=5;
+console.log(a<b && a===6);
+console.log(a<b || a===6);
 //Conditional Statements
-/*let age=25;
+/*let age=16;
 if(age>18){
     console.log("You can vote");
+}
+if(age<18){
+    console.log("You cannot vote");
 }*/
-//ternary operators
-/*let age=25;
-let res=age>=18 ? "adult" : "not adult";
-console.log(res);*/
-//practice q1
-alert("hello!!");
-prompt("helloo");
-let name=prompt("helloo");
-console.log(name);
-//question: get user input a number using prompt("") . Check if the number is a muktiple of 5 or not.
+let mode="pink";
+let color;
+if(mode==="dark"){
+    color="black";
+}
+/*if(mode==="light"){
+    color="white";
+}*/
+else{
+    color="white";
+}
+console.log(color);
+//Ternary Operators
+let years=23;
+console.log(years> 18 ? "adult":"not adult");
+//Practice Question
+//Get user to input a number using prompt("Enter a number").Check if the number is a multiple of 5 or not.
 let num=prompt("Enter a number:");
 if(num%5===0){
-    console.log("num is multiple of 5");
-}else{
-    console.log("num is not multiple of 5");
+    console.log("It is multiple of 5");
 }
+else{
+    console.log("It is not a multiple of 5");
+}
+console.log(num);

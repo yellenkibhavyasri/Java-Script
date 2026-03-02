@@ -1,8 +1,8 @@
-/*let age=10;
+let age=10;
 age=89;
 console.log(age);
 const PI=3.14;
-console.log(PI);*/
+console.log(PI);
 /*{
     let a=5;
     console.log(a);
@@ -31,3 +31,4 @@ const profile={
     isFollow: false,
     following:123,
 };
+console.log("hello world");
